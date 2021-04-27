@@ -18,16 +18,16 @@
                         <div class="col">
                             <label>Tipo de Anuncio:</label>
                             <select class="form-control">
-                                <option selected>Aluguel</option>
-                                <option>Venda</option>
+                                <option value="Aluguel" selected>Aluguel</option>
+                                <option value="Venda">Venda</option>
                             </select>
                         </div>
                         <div class="col">
                             <label>Cidade:</label>
                             <select class="form-control">
-                                <option selected>Juazeiro do Norte</option>
-                                <option>Crato</option>
-                                <option>Barbalha</option>
+                                <option value="Juazeiro do Norte" selected>Juazeiro do Norte</option>
+                                <option value="Crato">Crato</option>
+                                <option value="Barbalha">Barbalha</option>
                             </select>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="col">
                             <label>N°:</label>
-                            <input type="text" class="form-control" placeholder="N°">
+                            <input type="text" class="form-control" placeholder="123">
                         </div>
                         <div class="col">
                             <label>Bairro:</label>
@@ -48,8 +48,8 @@
                         <div class="col">
                             <label>Visibilidade:</label>
                             <select class="form-control disabled" disabled>
-                                <option selected>Disponível</option>
-                                <option>Indisponível</option>
+                                <option value="Disponível" selected>Disponível</option>
+                                <option value="Indisponível">Indisponível</option>
                             </select>
                         </div>
                     </div>
@@ -87,15 +87,15 @@
                         <div class="col">
                             <label>Quantidade de Cômodos:</label>
                             <select class="form-control">
-                                <option selected>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option>8</option>
-                                <option>9</option>
-                                <option>10</option>
-                                <option>Mais de 10</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="Mais de 10">Mais de 10</option>
                             </select>
                         </div>
                     </div>

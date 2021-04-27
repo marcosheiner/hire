@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<footer class="footer-home fixed-bottom">
+<footer class="footer-home">
     <div class="text-center">
         <small>Copyright ® 2021 Hire Todos os direitos reservados</small>
     </div>
