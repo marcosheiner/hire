@@ -118,6 +118,18 @@ label{
 .card{
     border: none;
 }
+
+.area-card-image{
+    max-width: 100%;
+    width: 100%;
+}
+
+.card-img-top{
+    width: 65px;
+    height: 220px;
+    object-fit: cover;
+}
+
 .btn-card{
     width: 100%;
     background-color: #e6ecff;
@@ -179,3 +191,38 @@ label{
     margin: 10px;
 }
 
+/*area anuncio*/
+.title-area-anuncio{
+    font-weight: 700;
+}
+
+.btn-wpp{
+    background: #25D366;
+    border-radius: 0%;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+.btn-wpp:hover{
+    color: whitesmoke;
+    background: #075E54;
+}
+
+.area-valor{
+    background: white;
+    padding: 20px;
+}
+
+.imagem-fachada{
+    background: white;
+    padding: 10px;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.img-fachada{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
