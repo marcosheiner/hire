@@ -8,7 +8,7 @@
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <div class="card shadow">
-                    <img src="https://www.decorfacil.com/wp-content/uploads/2017/03/20171011fachada-casa-simples-pequena-99.jpg" class="card-img-top" alt="">
+                    <img src="https://i.pinimg.com/736x/48/54/58/48545831887c996201cc8e639ba81c8a.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <span class="badge badge-hire">R$ 700,00</span>
                         <h5 class="card-title">Aluguel</h5>
