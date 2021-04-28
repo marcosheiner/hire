@@ -10,6 +10,7 @@ body{
 
 p{
     margin: 0;
+    font-weight: 300;
 }
 
 .bd-callout {
@@ -197,7 +198,7 @@ label{
 }
 
 .btn-wpp{
-    background: #25D366;
+    background: #7209b7;
     border-radius: 0%;
     color: white;
     font-size: 16px;
@@ -205,19 +206,19 @@ label{
 }
 .btn-wpp:hover{
     color: whitesmoke;
-    background: #075E54;
+    background: #5d0a94;
 }
 
 .area-valor{
     background: white;
-    padding: 20px;
+    
 }
 
 .imagem-fachada{
     background: white;
-    padding: 10px;
     max-width: 100%;
     width: 100%;
+    
     
 }
 
@@ -225,4 +226,23 @@ label{
     width: 100%;
     height: 250px;
     object-fit: cover;
+    
 }
+
+.badge-visi{
+    background-color: #7209b7;
+    color: white;
+}
+
+.linha-area{
+    max-width: 50px;
+    margin: 0px;
+    margin-bottom: 1em;
+    border: solid 3px;
+    border-color: #f5f5f5;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+}
+
+/*modal*/
+
