@@ -41,11 +41,13 @@
                         <br>
                         <div>
                             <p class="title-area-anuncio">Whatsapp:</p>
-                            <p class="d-inline"><a href="https://web.whatsapp.com/send?phone=5588988531646" target="_blank" class="btn btn-wpp">Conversar com Marcos</a></p>
+                            <p class="d-inline"><a href="https://web.whatsapp.com/send?phone=55(88)98853-1646" target="_blank" class="btn btn-wpp">Conversar com Marcos</a></p>
                         </div>
                         <hr>
                         <div class="area-valor">
-                            <h4 class="title-area-anuncio">Valor: 1.500,00</h4>
+                            <h4 class="title-area-anuncio">Valor</h4>
+                            <p class="title-area-anuncio">R$ 1.500,00</p>
+                            <small class="d-inline">Valor negociável: Sim</small>
                             <hr class="linha-area">
                             <p class="title-area-anuncio">Qtd Cômodo:</p>
                             <p class="d-inline">4</p>

@@ -1,3 +1,7 @@
+
+
+<?php require_once "../config/config.php";?>
+
 <?php include '../includes/menu.php' ?>
     
     
@@ -6,21 +10,21 @@
         <div class="flexbox">
             <div class="flex-item shadow">
                 <h2 class="title-login">Hire.</h2>
-                <form>
+                <form action="../routes/login.php" method="post">
                     <div class="form-group">
-                        <label for="">E-mail:</label>
-                        <input type="email" class="form-control" name="" aria-describedby="emailHelp">
+                        <label for="">Nome de Usuário:</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
                     </div>
                     <div class="form-group">
                         <label for="">Senha:</label>
-                        <input type="password" class="form-control" name="">
+                        <input type="password" class="form-control" id="senha" name="senha" required>
                     </div>
                     
                     <input type="submit" class="btn btn-login" value="Entrar"></input>
                 </form>
                 <br>
                 <div class="text-center">
-                    <a href="../pages/cadastrar.php">Cadastre-se</a>
+                    <a href="../home/cadastrar.php">Cadastre-se</a>
                 </div>
             </div>
         </div>

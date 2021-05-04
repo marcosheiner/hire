@@ -25,7 +25,7 @@ p{
 
 /*menu*/
 .navbar{
-    background-color: black;
+    background-color: #10002b;
 }
 .nav-item{
     color: white;
@@ -33,11 +33,11 @@ p{
     padding-right: 10px;
 }
 .select_cad{
-    background-color: #202020;
+    background-color: #240046;
     border-radius: 20px;
 }
 .nav-item:hover{
-    background-color: #202020;
+    background-color: #240046;
     border-radius: 20px;
 }
 .nav-link{
@@ -62,12 +62,12 @@ p{
 /*login area*/
 .btn-login{
     width: 100%;
-    background-color: black;
+    background-color: #3c096c;
     color: white;
-    border-radius: 0%;
+    border-radius: 2px;
 }
 .btn-login:hover{
-    background-color: #0c0c0c;
+    background-color: #7b2cbf;
     color: whitesmoke;
 }
 label{
@@ -94,7 +94,7 @@ label{
 }
 
 .footer-home{
-    background-color: black;
+    background-color: #10002b;
     padding: 25px;
     color: white;
 }
@@ -111,8 +111,8 @@ label{
     margin: 0px;
     margin-bottom: 1em;
     border: solid 3px;
-    border-color: #000000;
-    background-color: #000000;
+    border-color: #7b2cbf;
+    background-color: #7b2cbf;
     border-radius: 15px;
 }
 
@@ -133,18 +133,18 @@ label{
 
 .btn-card{
     width: 100%;
-    background-color: #e6ecff;
-    color: #3363ff;
+    background-color: #e8c2ff;
+    color: black;
     border-radius: 2px;
     font-weight: 300;
     margin-top: 10px;
 }
 .btn-card:hover{
-    background-color: #0c0c0c;
+    background-color: #3c096c;
     color: whitesmoke;
 }
 .badge-hire{
-    background-color: #7209b7;
+    background-color: #9d4edd;
     color: white;
     float: right;
     margin-bottom: 10px;
@@ -162,7 +162,7 @@ label{
 
 /*buscar area*/
 .btn-search{
-    background-color: #000000;
+    background-color: #7b2cbf;
     color: white;
     border-radius: 0%;
 }
@@ -180,12 +180,15 @@ label{
 }
 
 .btn-anunciar{
-    background-color: #e6ecff;
-    color: #3363ff;
-    border-radius: 0%;
-    border: 1px solid #8ea3e9;
+    background-color: #e8c2ff;
+    color: black;
+    border-radius: 2px;
     max-width: 100%;
     width: 15%;
+}
+.btn-anunciar:hover{
+    background-color: #3c096c;
+    color: white;
 }
 
 .box-infor{
@@ -198,15 +201,15 @@ label{
 }
 
 .btn-wpp{
-    background: #7209b7;
-    border-radius: 0%;
-    color: white;
+    background: #e8c2ff;
+    border-radius: 2px;
+    color: black;
     font-size: 16px;
     font-weight: 300;
 }
 .btn-wpp:hover{
-    color: whitesmoke;
-    background: #5d0a94;
+    color: white;
+    background: #3c096c;
 }
 
 .area-valor{

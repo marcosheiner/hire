@@ -14,20 +14,20 @@
 <body>
 
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="../pages/home.php">Hire</a>
+        <a class="navbar-brand" href="../home/index.php">Hire</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="material-icons" style="color: white;">menu</span>
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../pages/sobre.php">Quem Somos</a>
+                    <a class="nav-link" href="../home/sobre.php">Quem Somos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Suporte</a>
                 </li>
                 <li class="nav-item select_cad">
-                    <a class="nav-link" href="../pages/cadastrar.php">Cadastre-se</a>
+                    <a class="nav-link" href="../home/cadastrar.php">Cadastre-se</a>
                 </li>
             </ul>
         </div>
