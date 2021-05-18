@@ -40,7 +40,7 @@
             <ul class="navbar-nav ml-auto">
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Perfil</a>
+                    <a class="nav-link active" href="../pages/perfil.php">Perfil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../routes/logout.php">Sair</a>

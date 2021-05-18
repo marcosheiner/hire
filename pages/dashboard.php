@@ -1,6 +1,14 @@
-<?php require_once "../config/config.php";?>
+<?php 
 
-<?php include '../includes/menudashboard.php' ?>
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header("Location: ../home/index.php");
+}
+
+?>
+
+<?php include_once '../includes/menudashboard.php' ?>
 
 
 <div class="container" style="margin-top: 3em; margin-bottom: 3em;">

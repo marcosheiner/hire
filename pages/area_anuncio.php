@@ -6,7 +6,7 @@
             
             <div class="row mb-2">
                 <div class="col-md-6">
-                    <div class="" style="background-color: white; padding: 25px;">
+                    <div class="" style="background-color: #1F1F1F; padding: 25px;">
                         <h3><span class="material-icons">location_city</span> Juazeiro do Norte - CE</h3>
                         <hr class="linha-area">
                         <div>

@@ -1,6 +1,32 @@
+<?php 
+
+include_once '../config/config.php';
+
+session_start();
+
+error_reporting(0);
+
+if (isset($_SESSION['username'])) {
+    header("Location: ../pages/dashboard.php");
+}
 
 
-<?php require_once "../config/config.php";?>
+if (isset($_POST['submit'])) {
+	$email = $_POST['email'];
+	$senha = md5($_POST['senha']);
+
+	$sql = "SELECT * FROM user_hire WHERE email_user='$email' AND password_user='$senha'";
+	$result = mysqli_query($conn, $sql);
+	if ($result->num_rows > 0) {
+		$row = mysqli_fetch_assoc($result);
+		$_SESSION['username'] = $row['username'];
+		header("Location: ../pages/dashboard.php");
+	} else {
+		$login_err =  'E-mail ou Senha está errado.';
+	}
+}
+
+?>
 
 <?php include '../includes/menu.php' ?>
     
@@ -10,17 +36,18 @@
         <div class="flexbox">
             <div class="flex-item shadow">
                 <h2 class="title-login">Hire.</h2>
-                <form action="../routes/login.php" method="post">
+                <form action="" method="POST">
+                <span class="help-block" style="color: black;"><small><?php echo $login_err;?></small></span>
                     <div class="form-group">
-                        <label for="">Nome de Usuário:</label>
-                        <input type="text" class="form-control" id="username" name="username" required>
+                        <label for="">E-mail:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
                     </div>
                     <div class="form-group">
                         <label for="">Senha:</label>
                         <input type="password" class="form-control" id="senha" name="senha" required>
                     </div>
                     
-                    <input type="submit" class="btn btn-login" value="Entrar"></input>
+                    <button name="submit" class="btn btn-login">Entrar</button>
                 </form>
                 <br>
                 <div class="text-center">
